@@ -1,0 +1,6 @@
+{
+  "name": "OmniPet AI",
+  "description": "Multi-model AI task assistant with an on-screen companion pet for cross-app automation and productivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

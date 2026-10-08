@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Antenna -->
+    <path
+        android:strokeColor="#A5B4FC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,34 L54,26" />
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M54,23m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+
+    <!-- Cute Ears -->
+    <!-- Left Ear -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M38,44 L30,30 C34,28 42,32 44,40 Z" />
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M37,42 L32,32 C35,31 40,34 42,40 Z" />
+
+    <!-- Right Ear -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M70,44 L78,30 C74,28 66,32 64,40 Z" />
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M71,42 L76,32 C73,31 68,34 66,40 Z" />
+
+    <!-- Main Head Body -->
+    <path
+        android:pathData="M32,46 C32,38 38,34 54,34 C70,34 76,38 76,46 C76,64 74,74 54,74 C34,74 32,64 32,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="34"
+                android:endX="76"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E0E7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Visor / Face Screen -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M37,48 C37,44 41,42 54,42 C67,42 71,44 71,48 C71,58 68,62 54,62 C40,62 37,58 37,48 Z" />
+
+    <!-- Cute Glowing Cyan Eyes -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M44,52m-3,0a3,4 0 1,1 6,0a3,4 0 1,1 -6,0" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M64,52m-3,0a3,4 0 1,1 6,0a3,4 0 1,1 -6,0" />
+
+    <!-- Eye Highlights -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,50m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,50m-1.2,0a1.2,1.2 0 1,1 2.4,0a1.2,1.2 0 1,1 -2.4,0" />
+
+    <!-- Cute Smiling Mouth -->
+    <path
+        android:strokeColor="#F472B6"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M51,57 Q54,60 57,57" />
+
+    <!-- Blush Cheeks -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M39,55m-2,0a2,1.2 0 1,1 4,0a2,1.2 0 1,1 -4,0" />
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M69,55m-2,0a2,1.2 0 1,1 4,0a2,1.2 0 1,1 -4,0" />
+
+    <!-- Sparkle Stars -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,44 L79.5,47 L82.5,48.5 L79.5,50 L78,53 L76.5,50 L73.5,48.5 L76.5,47 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M27,58 L28,60 L30,61 L28,62 L27,64 L26,62 L24,61 L26,60 Z" />
+
+    <!-- Floating Body / Collar -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M46,74 L62,74 C60,79 48,79 46,74 Z" />
+</vector>

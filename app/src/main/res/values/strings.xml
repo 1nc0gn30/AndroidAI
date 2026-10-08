@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OmniPet AI</string>
+    <string name="pet_overlay_title">Screen Pet Companion</string>
+    <string name="ai_harness_title">AI Harness Hub</string>
+    <string name="automation_title">Cross-App Automator</string>
+    <string name="phone_controls_title">Phone Controls</string>
+</resources>
